@@ -1,0 +1,28 @@
+{
+  "name": "graphql-cli-fullstack-template",
+  "version": "4.0.0",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "graphql": "14.5.8",
+    "@graphql-codegen/typescript": "latest",
+    "@graphql-codegen/typescript-operations": "latest",
+    "@graphql-codegen/typescript-react-apollo": "latest",
+    "@graphql-codegen/typescript-resolvers": "latest",
+    "@test-graphql-cli/codegen": "latest",
+    "@test-graphql-cli/coverage": "latest",
+    "@test-graphql-cli/diff": "latest",
+    "@test-graphql-cli/generate": "latest",
+    "@test-graphql-cli/init": "latest",
+    "@test-graphql-cli/serve": "latest",
+    "@test-graphql-cli/similar": "latest",
+    "@test-graphql-cli/validate": "latest",
+    "graphql-cli": "latest",
+    "tslint": "5.20.0",
+    "typescript": "3.6.4"
+  }
+}
