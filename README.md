@@ -28,7 +28,7 @@ yarn graphql generate --db
 - Start the server
 
 ```sh
-yarn start
+cd server/ && yarn start
 ```
 
 - Generate queries, mutations and subscriptions for client-side project
@@ -41,4 +41,10 @@ yarn graphql generate --client
 
 ```sh
 yarn graphql codegen
+```
+
+- Start React App
+
+```sh
+cd client/ && yarn start
 ```
