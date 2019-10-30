@@ -12,7 +12,10 @@ const App: React.FC = () => {
     <div>
       <fieldset>
         <legend>Create New Note</legend>
-        <form onSubmit={() => createNote({ variables: { title: newNoteTitle, description: newNoteDescription } })}>
+        <form onSubmit={e => {
+          e.preventDefault();
+          createNote({ variables: { title: newNoteTitle, description: newNoteDescription } });
+        }}>
           <p>
             <label htmlFor="title">Title: </label>
             <input
@@ -33,7 +36,10 @@ const App: React.FC = () => {
       <ul>
         {
           allNotes.data && allNotes.data.findAllNotes.map((note) => (
-            <li><strong>{note.title}</strong>{note.description}</li>
+            <li>
+              <strong>{note.title}</strong>:&nbsp;
+              {note.description}
+            </li>
           ))
         }
       </ul>

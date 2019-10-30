@@ -6,7 +6,9 @@ import App from './App';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
 
-const apolloClient = new ApolloClient();
+const apolloClient = new ApolloClient({
+    uri: 'http://localhost:4000/graphql'
+});
 
 ReactDOM.render(<ApolloProvider client={apolloClient}><App/></ApolloProvider>, document.getElementById('root'));
 
