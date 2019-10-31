@@ -1,6 +1,6 @@
-# GraphQL CLI Basic Full stack Template
+# GraphQL CLI Basic Full Stack Template
 
-Starter backend template using GraphQL CLI.
+Starter Full Stack template using GraphQL CLI.
 
 ## Usage
 
