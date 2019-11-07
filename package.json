@@ -26,7 +26,7 @@
     "@test-graphql-cli/similar": "canary",
     "@test-graphql-cli/validate": "canary",
     "graphql-cli": "canary",
-    "tslint": "5.20.0",
+    "tslint": "5.20.1",
     "typescript": "3.7.2"
   }
 }
