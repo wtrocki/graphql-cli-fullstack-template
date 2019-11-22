@@ -22,6 +22,14 @@ extensions:
             subUpdate: false
             subDelete: false
             disableGen: false
+        generator: 
+            resolvers: 
+                format: 'ts'
+                types: 
+                    typesImportStatement: 'import { Resolvers } from "../../generated-types"'
+                    resolverType: 'Resolvers'
+            schema: 
+                format: 'ts',
         folders:
             model: ./model
             resolvers: ./server/src/resolvers
