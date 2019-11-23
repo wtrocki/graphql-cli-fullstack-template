@@ -26,8 +26,8 @@ extensions:
             resolvers: 
                 format: 'ts'
                 types: 
-                    typesImportStatement: 'import { Resolvers } from "../../generated-types"'
-                    resolverType: 'Resolvers'
+                    resolverRootLocation: '../../generated-types'
+                    resolverRootType: 'Resolvers'
             schema: 
                 format: 'ts',
         folders:
